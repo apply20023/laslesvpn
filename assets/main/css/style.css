@@ -43,10 +43,13 @@ body{
      font-family: 'Rubik';
      font-size: 16px;
      font-weight: 400;
+     color: #4F5665;
 }
   
 /* --------------------- Home Section Begin ---------------------- */
-
+.home{
+     height: 100vh;
+}
 /* navbar section begin  */
 .logo_1{
      font-family: 'Rubik';
@@ -77,5 +80,32 @@ body{
      color: white;
 }
   /* navbar section end  */
-
+ .home_btn{
+     background-color: #F53855;
+     text-decoration: none;
+     color: white;
+     font-weight: 700;
+     padding: 17px 50px;
+     border-radius: 10px;
+     box-shadow:rgb(245, 56, 56, 0.35) 0px 30px 40px -7px ;
+     display: inline-block;
+ }
+ .home_btn:hover{
+     background-color: #D32F2F;
+ }
+ .home_header{
+     font-size: 50px;
+     font-weight: 500;
+     color: #0B132A;   
+ }
   /* --------------------- Home Section End ---------------------- */
+  @media screen and (max-width:768px) {
+     .home{
+          height: 100% !important;
+     }
+  }
+  @media screen and (max-width:768px) {
+     .home .col-12{
+          flex-direction: column-reverse;
+     }
+  }
