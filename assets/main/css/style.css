@@ -1,111 +1,153 @@
 /* rubik-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/rubik-v28-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('../fonts/rubik-v28-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-  }
-  /* rubik-500 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/rubik-v28-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('../fonts/rubik-v28-latin-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-  }
-  /* rubik-700 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/rubik-v28-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('../fonts/rubik-v28-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-  }
-  /* rubik-800 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 800;
-    src: url('../fonts/rubik-v28-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('../fonts/rubik-v28-latin-800.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-  }
-  *{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-} 
-body{
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
      font-family: 'Rubik';
-     font-size: 16px;
+     font-style: normal;
      font-weight: 400;
-     color: #4F5665;
-}
-  
-/* --------------------- Home Section Begin ---------------------- */
-.home{
-     height: 100vh;
-}
-/* navbar section begin  */
-.logo_1{
+     src: url('../fonts/rubik-v28-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+          url('../fonts/rubik-v28-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+   }
+   /* rubik-500 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
      font-family: 'Rubik';
+     font-style: normal;
      font-weight: 500;
-     font-size: 20px;
-}
-.logo_2{
+     src: url('../fonts/rubik-v28-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+          url('../fonts/rubik-v28-latin-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+   }
+   /* rubik-700 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
      font-family: 'Rubik';
+     font-style: normal;
      font-weight: 700;
-     font-size: 20px;
-}
-.sign_in{
-     font-weight: 500;
-     text-decoration: none;
-     color: #0B132A;
-}
-.sign_up{
-     font-weight: 500;
-     text-decoration: none;
-     padding: 13px 45px;
-     color: #F53855;
-     border-radius: 50px;
-     border: 1px solid #F53855 ;
-     transition: 0.4s;
-}
-.sign_up:hover{
-     background-color: #F53855;
-     color: white;
-}
-  /* navbar section end  */
- .home_btn{
-     background-color: #F53855;
-     text-decoration: none;
-     color: white;
-     font-weight: 700;
-     padding: 17px 50px;
-     border-radius: 10px;
-     box-shadow:rgb(245, 56, 56, 0.35) 0px 30px 40px -7px ;
-     display: inline-block;
+     src: url('../fonts/rubik-v28-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+          url('../fonts/rubik-v28-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+   }
+   /* rubik-800 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Rubik';
+     font-style: normal;
+     font-weight: 800;
+     src: url('../fonts/rubik-v28-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+          url('../fonts/rubik-v28-latin-800.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+   }
+ 
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
  }
- .home_btn:hover{
-     background-color: #D32F2F;
+ 
+ body {
+      font-family: 'Rubik';
+      font-size: 16px;
+      font-weight: 400;
+      color: #4F5665;
  }
- .home_header{
-     font-size: 50px;
-     font-weight: 500;
-     color: #0B132A;   
+ 
+ /* ---------------------------- Home Section Begin ---------------------------- */
+ .home {
+      height: 100vh;
  }
-  /* --------------------- Home Section End ---------------------- */
-  @media screen and (max-width:768px) {
-     .home{
-          height: 100% !important;
-     }
-  }
-  @media screen and (max-width:768px) {
-     .home .col-12{
-          flex-direction: column-reverse;
-     }
-  }
+ 
+ /* navbar section begin */
+ .logo_1 {
+      font-weight: 500;
+      font-size: 20px;
+ }
+ .logo_2 {
+      font-weight: 700;
+      font-size: 20px;
+ }
+ 
+ .sign_in {
+      font-weight: 500;
+      text-decoration: none;
+      color: #0B132A;
+ }
+ .sign_up {
+      font-weight: 500;
+      text-decoration: none;
+      padding: 13px 45px;
+      color: #F53855;
+      border-radius: 50px;
+      border: 1px solid #F53855;
+      transition: 0.4s;
+ }
+ 
+ .sign_up:hover {
+      background-color: #F53855;
+      color: white;
+ }
+ /* navbar section end */
+ 
+ 
+ .home_btn {
+      text-decoration: none;
+      background-color: #F53838;
+      font-weight: 700;
+      color: white;
+      padding: 17px 50px;
+      border-radius: 10px;
+      box-shadow: rgba(245, 56, 56, 0.35) 0px 30px 40px -7px;
+      display: inline-block;
+ }
+ 
+ .home_btn:hover {
+      background-color: #D32F2F;
+ }
+ 
+ .home_header {
+      font-size: 50px;
+      font-weight: 500;
+      color: #0B132A;
+ }
+ /* ---------------------------- Home Section End ---------------------------- */
+ 
+ 
+ 
+ /* ---------------------------- Users Section Begin ---------------------------- */
+ .users {
+      border-radius: 10px;
+      box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+ }
+ 
+ .user_header {
+      font-weight: 700;
+      font-size: 25px;
+      color: #0B132A;
+      margin: 0;
+ }
+ .user_text {
+      font-size: 20px;
+      margin:0;
+ }
+ 
+ .line {
+      height: 100%;
+      width: 2px;
+      background-color: #EEEFF2;
+ }
+ /* ---------------------------- Users Section End ---------------------------- */
+ 
+ /* ---------------------------- fictures Section begin ---------------------------- */
+ .correct_text{
+      margin: 0;
+      font-size: 14px;
+ }
+ .header-text{
+      color: #0B132A;
+      font-weight: 500;
+      font-size: 35px;
+ }
+ /* ---------------------------- fictures Section End ---------------------------- */
+ 
+ 
+ @media screen and (max-width: 768px) {
+      .home {
+           height: 100% !important;
+      }
+ }
